@@ -5,6 +5,7 @@ import googlelogo from './images/google.png';
 import microsoftlogo from './images/microsoft.png';
 import eyeClosedIcon from './images/passwordhide.png';
 import eyeOpenIcon from './images/passwordshow.png';
+import leftimg from './images/loginimg.png';
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -21,6 +22,11 @@ const Login = () => {
   return (
     <div className='container'>
       <div className="login-container">
+        <div className='left-container__img'>
+        <div className='left-content'>
+          <img className='left-img' src={leftimg} alt="login-img" />
+          </div>
+          <div>
         <div className="logo">
           <img src={logo} alt='verticurl-logo'/>
           <p className='logo-text'>VERTICURL BOT</p>
@@ -64,6 +70,9 @@ const Login = () => {
         </div>
       </div>
     </div>
+    </div>
+    </div>
+  
   );
 };
 

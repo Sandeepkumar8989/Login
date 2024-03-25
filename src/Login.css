@@ -21,6 +21,10 @@
 
 
   }
+  .left-content{
+    display: none;
+  }
+ 
   
   
   .logo {
@@ -165,7 +169,7 @@
 
     border: none;
     height: 56px;
-
+    width: 100%;
     padding: 10px 20px;
     border-radius: 16px;
     cursor: pointer;
@@ -214,3 +218,28 @@
     font-size: 24px;
   }
   
+  @media screen and (min-width:768px){
+    .container{
+      display: flex;
+      padding: 0%;
+      align-items: center;
+      justify-content: center;
+    }
+    .login-container{
+      height: auto;
+      width: 100%;
+      margin-left: 20%;
+      margin-right: 20%;
+      padding: 0%;
+    }
+    .left-content{
+      display: flex;
+    }
+    .left-img{
+      width: 80%;
+    }
+  
+    .left-container__img{
+      display: flex;
+    }
+  }
