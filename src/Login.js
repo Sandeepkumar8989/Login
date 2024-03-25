@@ -26,7 +26,7 @@ const Login = () => {
         <div className='left-content'>
           <img className='left-img' src={leftimg} alt="login-img" />
           </div>
-          <div>
+          <div className='right-content'>
         <div className="logo">
           <img src={logo} alt='verticurl-logo'/>
           <p className='logo-text'>VERTICURL BOT</p>

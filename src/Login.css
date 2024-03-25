@@ -242,4 +242,7 @@
     .left-container__img{
       display: flex;
     }
+    .right-content{
+      width: 45%;
+    }
   }
